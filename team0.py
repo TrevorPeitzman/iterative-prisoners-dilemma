@@ -1,10 +1,8 @@
 ####
-# Each team's file must define four tokens:
-#     team_name: a string
-#     strategy_name: a string
-#     strategy_description: a string
-#     move: A function that returns 'c' or 'b'
+# Inline code comments under function "move" by Trevor Peitzman
 ####
+
+import random
 
 team_name = 'Ryan the Retaliator' # Only 10 chars displayed.
 strategy_name = 'spiteful_t4t'
@@ -31,17 +29,28 @@ def move(my_history, their_history, my_score, their_score):
     # if len(my_history) == 0:
     #     return 'c'
 
+    # As end of match approaches, change tactic slightly
     while len(my_history) >= 100:
+        # Create a number 0 to 1 that represents the possibility this round is the last
         probability_round_is_last = float((len(my_history))-100)/99.0
 
-        if probability_round_is_last >= 0.7 and not my_history[-1] == 'b':
-            # Add an if to only run this if strat id'd as tit4tat
-            return 'b'
-        elif their_history[-1] == 'b':
+        # Continue semi-regular T4T, retaliate when they betray
+        if their_history[-1] == 'b':
             return 'b'
         else:
-            return 'c'
+            # If thresh is under the probability that this is the last round, and you did not betray
+            # on the last round, then betray now
+            thresh = random.randint(1, 10)
+            if thresh < 10.*probability_round_is_last and 'b' not in my_history[-1]:
+                return 'b'
+            # But also if I betrayed last match, then betray until the end
+            elif 'b' in my_history[-1]:
+                return 'b'
+            # When in doubt, collude
+            else:
+                return 'c'
 
+    # While the length of the match is less than 100, play regular Tit4Tat
     if len(their_history) > 0 and str(their_history[-1]) == 'b':
         return 'b'
     else:
