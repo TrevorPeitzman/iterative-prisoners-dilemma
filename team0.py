@@ -29,7 +29,7 @@ def move(my_history, their_history, my_score, their_score):
     probability_round_is_last = float((len(my_history))-100)/99.0
 
     # If opponent betrays in first 8 moves even though I didn't, retaliate for rest of match    -TP
-    if 'b' in their_history[0:8]:
+    if 'b' in their_history[0:7]:
         return 'b'
     # As end of match approaches, change tactic slightly    -TP
     # Return 'b' when on the guaranteed last round      -TP

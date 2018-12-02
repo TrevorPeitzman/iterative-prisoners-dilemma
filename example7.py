@@ -6,7 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'E7'
+team_name = 'ADangerGame'
 strategy_name = 'Error'
 strategy_description = 'return \'\', \' \', or int 4'
 import random
@@ -21,6 +21,12 @@ def move(my_history, their_history, my_score, their_score):
     
     Returns 'c' or 'b' for collude or betray.
     '''
-    
-    #This example player always betrays.      
-    return random.choice(['', ' ', 4])
+    if 'b' in their_history[0:7]:
+        return 'b'
+    elif len(my_history) > 198:
+        return 'b'
+    # Avoid issue with having no history; always return 'c' on first round  -TP
+    elif len(their_history) == 0:
+        return 'c'
+    else:
+        return their_history[-1]
