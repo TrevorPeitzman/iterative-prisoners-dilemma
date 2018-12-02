@@ -1,14 +1,10 @@
 ####
-# Each team's file must define four tokens:
-#     team_name: a string
-#     strategy_name: a string
-#     strategy_description: a string
-#     move: A function that returns 'c' or 'b'
+# Inline code comments under function "move" by Trevor Peitzman
 ####
 
 team_name = 'Optimistic Oscar' # Only 10 chars displayed.
 strategy_name = 'Cycler_CCB'
-strategy_description = 'wants love for all, 66% of the time'
+strategy_description = 'Simple strat. Wants love for all, 66% of the time'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -26,8 +22,10 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
 
+    # If the round number is divisible by three, play 'b'
     if len(my_history) % 3 == 0:
         return 'b'
+    # if not a round divisible by three, play 'c'
     else:
         return 'c'
 
