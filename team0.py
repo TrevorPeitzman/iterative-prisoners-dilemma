@@ -1,12 +1,12 @@
 ####
-# Inline code comments under function "move" by Trevor Peitzman
+# Inline code comments under function "move" with "-TP" at the end are by Trevor Peitzman
 ####
 
 import random
 
-team_name = 'Ryan the Retaliator' # Only 10 chars displayed.
-strategy_name = 'spiteful_t4t'
-strategy_description = 'How does this strategy decide?'
+team_name = 'MeltingPot' # Only 10 chars displayed.
+strategy_name = 'America The Beautiful'
+strategy_description = 'a programmers rendition of the American Dream'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -24,37 +24,27 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
 
-    # probability_round_is_last = 0
+    # Create variable to represent the probability this is the last round to be played  -TP
+    # knowing there is a random # of rounds played between 100 & 200    -TP
+    probability_round_is_last = float((len(my_history))-100)/99.0
 
-    # if len(my_history) == 0:
-    #     return 'c'
-
-    # As end of match approaches, change tactic slightly
-    while len(my_history) >= 100:
-        # Create a number 0 to 1 that represents the possibility this round is the last
-        probability_round_is_last = float((len(my_history))-100)/99.0
-
-        # Continue semi-regular T4T, retaliate when they betray
-        if their_history[-1] == 'b':
-            return 'b'
-        else:
-            # If thresh is under the probability that this is the last round, and you did not betray
-            # on the last round, then betray now
-            thresh = random.randint(1, 10)
-            if thresh < 10.*probability_round_is_last and 'b' not in my_history[-1]:
-                return 'b'
-            # But also if I betrayed last match, then betray until the end
-            elif 'b' in my_history[-1]:
-                return 'b'
-            # When in doubt, collude
-            else:
-                return 'c'
-
-    # While the length of the match is less than 100, play regular Tit4Tat
-    if len(their_history) > 0 and str(their_history[-1]) == 'b':
+    # If opponent betrays in first 8 moves even though I didn't, retaliate for rest of match    -TP
+    if 'b' in their_history[0:8]:
         return 'b'
+    # As end of match approaches, change tactic slightly    -TP
+    # Return 'b' when on the guaranteed last round      -TP
+    elif probability_round_is_last == 1:
+        return 'b'
+    # Avoid issue with having no history; always return 'c' on first round  -TP
+    elif len(their_history) == 0:
+        return 'c'
+    #First Round: no response is given, so their_history == 0 characters. Program colludes as initial response. --Brandon Rios
+    elif their_history[-1] == 'b':
+        return 'b'
+    ##Subsequent Rounds: If opponent answered with 'betray' the previous round, respond with betray. --Brandon Rios
     else:
         return 'c'
+    ###Subsequent Rounds (cont'd): If opponent responded with other (a.k.a. Collude) in previous round, respond with collude. --Brandon Rios
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
