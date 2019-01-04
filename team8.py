@@ -6,7 +6,9 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'T4T_6' # Only 10 chars displayed.
+import random
+
+team_name = 'DGupta' # Only 10 chars displayed.
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -18,15 +20,14 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b'. 
     '''
 
-    if len(their_history) == 0:
-        return 'c'
-    #First Round: no response is given, so their_history == 0 characters. Program colludes as initial response. --Brandon Rios
-    elif their_history[-1] == 'b':
-        return 'b'
-    ##Subsequent Rounds: If opponent answered with 'betray' the previous round, respond with betray. --Brandon Rios
-    else:
-        return 'c'
+    # if len(my_history) != 0 and 'b' in my_history[-10]:  # If I have betrayed the last 10 rounds,
+    #     return 'c'  # Then collude
+    # elif random.random() < 0.5:  # 50% of the rounds
+    #     return 'b'  # Betray
+    # else:
+    #     return 'c'  # The other 50%; collude
 
+    return 'c'
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)

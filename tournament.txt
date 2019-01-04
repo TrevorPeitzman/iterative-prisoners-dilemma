@@ -10,9 +10,9 @@ Player 1 (P1): E5, Collude first 100 rounds unless betrayed. Betray 101st round 
         Betray if ever betrayed.
         If I haven't been betrayed yet, I'll betray starting with the 100th roun
         d.
-Player 2 (P2): E6, Collude until betrayed
+Player 2 (P2): EWads, Collude until betrayed
         Collude first round. Collude, unless betrayed; then always betray.
-Player 3 (P3): maltodextrin, Error
+Player 3 (P3): ADangerGame, Error
         return '', ' ', or int 4
 Player 4 (P4): MeltingPot, America The Beautiful
         a programmers rendition of the American Dream
@@ -23,7 +23,7 @@ Player 6 (P6): Optimistic Oscar, Cycler_CCB
         Simple strat. Wants love for all, 66% of the time
 Player 7 (P7): Cycler_BBC, Cycler_BBC
         Plays bbc on repeat
-Player 8 (P8): T4T_2, The name the team gives to this strategy
+Player 8 (P8): JSazon, The name the team gives to this strategy
         How does this strategy decide?
 Player 9 (P9): T4T_3, T4T_3
         How does this strategy decide?
@@ -31,49 +31,49 @@ Player 10 (P10): T4T_4, T4T_4
         How does this strategy decide?
 Player 11 (P11): T4T_5, The name the team gives to this strategy
         How does this strategy decide?
-Player 12 (P12): T4T_6, The name the team gives to this strategy
+Player 12 (P12): DGupta, The name the team gives to this strategy
         How does this strategy decide?
-Player 13 (P13): T4T_7, The name the team gives to this strategy
+Player 13 (P13): MDePaula, The name the team gives to this strategy
         How does this strategy decide?
 --------------------------------------------------------------------------------
 Section 1 - Player vs. Player
 --------------------------------------------------------------------------------
 Each column shows pts/round earned against each other player:
              P0     P1     P2     P3     P4     P5     P6     P7     P8     P9    P10    P11    P12    P13
-vs. P0 :      0    -41      0      0      0      0   -134   -209      0      0      0      0      0      0
-vs. P1 :    -51      0   -111   -122    -12    -33   -415   -329    -58   -112    -83   -101    -85    -47
-vs. P2 :      0   -107      0      0      0      0   -414   -329      0      0      0      0      0      0
-vs. P3 :      0   -119      0      0      0      0   -415   -330      0      0      0      0      0      0
-vs. P4 :      0     -7      0      0      0      0   -415   -329      0      0      0      0      0      0
-vs. P5 :      0    -28      0      0      0      0   -134   -216      0      0      0      0      0      0
-vs. P6 :   -134    -19    -20    -19    -19   -134      0   -104   -134   -134   -135   -135   -137   -134
-vs. P7 :   -218   -135   -135   -135   -135   -216   -297      0   -215   -218   -218   -218   -218   -218
-vs. P8 :      0    -54      0      0      0      0   -134   -215      0      0      0      0      0      0
-vs. P9 :      0   -108      0      0      0      0   -134   -214      0      0      0      0      0      0
-vs. P10 :      0    -79      0      0      0      0   -135   -214      0      0      0      0      0      0
-vs. P11 :      0    -97      0      0      0      0   -135   -213      0      0      0      0      0      0
-vs. P12 :      0    -81      0      0      0      0   -132   -213      0      0      0      0      0      0
-vs. P13 :      0    -42      0      0      0      0   -134   -214      0      0      0      0      0      0
-TOTAL  :   -403   -917   -266   -276   -166   -383  -3028  -3129   -407   -464   -436   -454   -440   -399
+vs. P0 :      0    -83   -247      0      0      0   -132   -207   -246      0      0      0      0   -188
+vs. P1 :    -91      0   -249   -124    -33    -40   -414   -329   -247    -19    -19   -120    -33   -342
+vs. P2 :   -253   -252      0   -252   -252   -252   -416   -334   -250   -252   -252   -253   -500   -351
+vs. P3 :      0   -121   -248      0      0      0   -412   -327   -248      0      0      0      0   -346
+vs. P4 :      0    -28   -249      0      0      0   -415   -329   -249      0      0      0      0   -345
+vs. P5 :      0    -35   -249      0      0      0   -133   -214   -249      0      0      0      0   -192
+vs. P6 :   -136    -19    -19    -22    -19   -136      0   -100    -18   -137   -136   -135   -170    -69
+vs. P7 :   -219   -136   -133   -136   -135   -218   -300      0   -134   -218   -216   -216   -334   -215
+vs. P8 :   -254   -253   -250   -252   -252   -252   -417   -334      0   -252   -252   -253   -500   -344
+vs. P9 :      0    -13   -248      0      0      0   -131   -214   -248      0      0      0      0   -190
+vs. P10 :      0    -13   -249      0      0      0   -133   -216   -248      0      0      0      0   -193
+vs. P11 :      0   -117   -247      0      0      0   -135   -216   -247      0      0      0      0   -191
+vs. P12 :      0      6    100      0      0      0     33     66    100      0      0      0      0     63
+vs. P13 :   -196   -120   -110   -116   -117   -195   -248   -175   -120   -190   -193   -195   -320      0
+TOTAL  :  -1149  -1184  -2398   -902   -808  -1093  -3253  -2929  -2404  -1068  -1068  -1172  -1857  -2903
 --------------------------------------------------------------------------------
 Section 2 - Leaderboard
 --------------------------------------------------------------------------------
 Average points per round:
 Team name (P#):  Score      with strategy name
-MeltingPot(P4):        -12 points with America The Beautiful                   
-E6        (P2):        -19 points with Collude until betrayed                  
-maltodextr(P3):        -20 points with Error                                   
-Bscts&Grvy(P5):        -28 points with Timmy the Trustworthy                   
-E4        (P0):        -29 points with Use early history                       
-T4T_7     (P13):        -29 points with The name the team gives to this strategy
-T4T_2     (P8):        -30 points with The name the team gives to this strategy
-T4T_4     (P10):        -32 points with T4T_4                                   
-T4T_6     (P12):        -32 points with The name the team gives to this strategy
-T4T_5     (P11):        -33 points with The name the team gives to this strategy
-T4T_3     (P9):        -34 points with T4T_3                                   
-E5        (P1):        -66 points with Collude first 100 rounds unless betrayed
-Optimistic(P6):       -217 points with Cycler_CCB                              
-Cycler_BBC(P7):       -224 points with Cycler_BBC                              
+MeltingPot(P4):        -58 points with America The Beautiful                   
+ADangerGam(P3):        -65 points with Error                                   
+T4T_3     (P9):        -77 points with T4T_3                                   
+T4T_4     (P10):        -77 points with T4T_4                                   
+Bscts&Grvy(P5):        -79 points with Timmy the Trustworthy                   
+E4        (P0):        -83 points with Use early history                       
+T4T_5     (P11):        -84 points with The name the team gives to this strategy
+E5        (P1):        -85 points with Collude first 100 rounds unless betrayed
+DGupta    (P12):       -133 points with The name the team gives to this strategy
+EWads     (P2):       -172 points with Collude until betrayed                  
+JSazon    (P8):       -172 points with The name the team gives to this strategy
+MDePaula  (P13):       -208 points with The name the team gives to this strategy
+Cycler_BBC(P7):       -210 points with Cycler_BBC                              
+Optimistic(P6):       -233 points with Cycler_CCB                              
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 example4--------------------------------------------------------------------------------
@@ -171,7 +171,7 @@ example6------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'E6'
+team_name = 'EWads'
 strategy_name = 'Collude until betrayed'
 strategy_description = '''\
 Collude first round. Collude, unless betrayed; then always betray.'''
@@ -186,7 +186,7 @@ def move(my_history, their_history, my_score, their_score):
     
     Returns 'c' or 'b' for collude or betray.
     '''
-    if 'b' in their_history:
+    if my_score >= their_score:  # if our score is ever greater or equal to our opponent's score, then we betray.  If not, we collude.
         return 'b'
     else:
         return 'c'--------------------------------------------------------------------------------
@@ -199,7 +199,7 @@ example7------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'maltodextrin'
+team_name = 'ADangerGame'
 strategy_name = 'Error'
 strategy_description = 'return \'\', \' \', or int 4'
 import random
@@ -505,7 +505,7 @@ team4---------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'T4T_2' # Only 10 chars displayed.
+team_name = 'JSazon' # Only 10 chars displayed.
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -525,14 +525,34 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
 
-    if len(their_history) == 0:
-        return 'c'
-    #First Round: no response is given, so their_history == 0 characters. Program colludes as initial response. --Brandon Rios
-    elif their_history[-1] == 'b':
+    def must_common(common=''):
+        '''collude or betray appear most often in oppenents last 5 movies'''
+
+        y = 0
+        x = 0
+        # go through each letter in the last 5 decisions of opponent
+        for letters in their_history[-5:]:
+            # the x or y with the highest value is equivalent of the most often letter
+            if (letters == 'b' or 'B'):
+                # for every b add one to y
+                y = + 1
+            else:
+                x = + 1
+        # assign the value of common to the most appeared letter
+        if (y > x):
+            common = 'b'
+        else:
+            common = 'c'
+
+    if len(my_history) < 6:  # It's the first six round; collude.
         return 'b'
-    ##Subsequent Rounds: If opponent answered with 'betray' the previous round, respond with betray. --Brandon Rios
     else:
-        return 'c'
+        # returns opposite letter of the most common letter in last 5 decisions
+        if must_common(common='b'):
+            return 'c'
+        else:
+
+            return 'b'
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
@@ -786,7 +806,9 @@ team8---------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'T4T_6' # Only 10 chars displayed.
+import random
+
+team_name = 'DGupta' # Only 10 chars displayed.
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -798,15 +820,14 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b'. 
     '''
 
-    if len(their_history) == 0:
-        return 'c'
-    #First Round: no response is given, so their_history == 0 characters. Program colludes as initial response. --Brandon Rios
-    elif their_history[-1] == 'b':
-        return 'b'
-    ##Subsequent Rounds: If opponent answered with 'betray' the previous round, respond with betray. --Brandon Rios
-    else:
-        return 'c'
+    # if len(my_history) != 0 and 'b' in my_history[-10]:  # If I have betrayed the last 10 rounds,
+    #     return 'c'  # Then collude
+    # elif random.random() < 0.5:  # 50% of the rounds
+    #     return 'b'  # Betray
+    # else:
+    #     return 'c'  # The other 50%; collude
 
+    return 'c'
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
@@ -854,7 +875,7 @@ team9---------------------------------------------------------------------------
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'T4T_7' # Only 10 chars displayed.
+team_name = 'MDePaula' # Only 10 chars displayed.
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -866,14 +887,8 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b'. 
     '''
 
-    if len(their_history) == 0:
-        return 'c'
-    #First Round: no response is given, so their_history == 0 characters. Program colludes as initial response. --Brandon Rios
-    elif their_history[-1] == 'b':
-        return 'b'
-    ##Subsequent Rounds: If opponent answered with 'betray' the previous round, respond with betray. --Brandon Rios
-    else:
-        return 'c'
+    answer = "cbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbbbbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbbbbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcb"
+    return answer[len(my_history) - 1]
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
@@ -915,34 +930,37 @@ if __name__ == '__main__':
               result='b')             --------------------------------------------------------------------------------
 Section 3 - Game Data for Team E4
 --------------------------------------------------------------------------------
--51 pt/round: E4(P0) "Use early history"
--41 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-91 pt/round: E4(P0) "Use early history"
+-83 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCcbcbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbBbbbbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCBbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-253 pt/round: E4(P0) "Use early history"
+-247 pt/round: EWads(P2) "Collude until betrayed"
+cbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+BbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: E4(P0) "Use early history"
-0 pt/round: E6(P2) "Collude until betrayed"
+0 pt/round: ADangerGame(P3) "Error"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCC
-CCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: E4(P0) "Use early history"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCC
+CCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: E4(P0) "Use early history"
@@ -950,8 +968,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: E4(P0) "Use early history"
@@ -959,44 +977,35 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--134 pt/round: E4(P0) "Use early history"
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-136 pt/round: E4(P0) "Use early history"
+-132 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 
 CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
 CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
 
-BC
-cC
-
 --------------------------------------------------------------------------------
--218 pt/round: E4(P0) "Use early history"
--209 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-219 pt/round: E4(P0) "Use early history"
+-207 pt/round: Cycler_BBC(P7) "Cycler_BBC"
 CcbCcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 CBbCBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
+bBcbBcbBcbBcbBcbBcbBc
+bcBbcBbcBbcBbcBbcBbcB
 
 --------------------------------------------------------------------------------
-0 pt/round: E4(P0) "Use early history"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-254 pt/round: E4(P0) "Use early history"
+-246 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+BbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: E4(P0) "Use early history"
@@ -1004,8 +1013,11 @@ CCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: E4(P0) "Use early history"
@@ -1013,11 +1025,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: E4(P0) "Use early history"
@@ -1025,78 +1034,69 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCC
+CCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: E4(P0) "Use early history"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: E4(P0) "Use early history"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-196 pt/round: E4(P0) "Use early history"
+-188 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBcbcbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+BcBbBbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCC
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcb
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBb
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team E5
 --------------------------------------------------------------------------------
--41 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--51 pt/round: E4(P0) "Use early history"
+-83 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-91 pt/round: E4(P0) "Use early history"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCBbBbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbcbbbbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCBbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
--107 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--111 pt/round: E6(P2) "Collude until betrayed"
+-252 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-249 pt/round: EWads(P2) "Collude until betrayed"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-121 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-124 pt/round: ADangerGame(P3) "Error"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-bbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
--119 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--122 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
--7 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--12 pt/round: MeltingPot(P4) "America The Beautiful"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbb
-CCCCCCCCCCCCCCCCCCCCCcbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 -28 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--33 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-33 pt/round: MeltingPot(P4) "America The Beautiful"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
@@ -1104,151 +1104,25 @@ CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbb
 CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
+-35 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-40 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
 -19 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--415 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
-cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
-Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
-
-BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
-cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
-
-BBbBBbBBbBBbBBbBBbBBbBBbB
-ccbccbccbccbccbccbccbccbc
-
---------------------------------------------------------------------------------
--135 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--329 pt/round: Cycler_BBC(P7) "Cycler_BBC"
-CcbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
-CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
-
-bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
-bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
-
---------------------------------------------------------------------------------
--54 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--58 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
--108 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--112 pt/round: T4T_3(P9) "T4T_3"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
--79 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--83 pt/round: T4T_4(P10) "T4T_4"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
--97 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--101 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbb
-bbbbbbb
-
---------------------------------------------------------------------------------
--81 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--85 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
--42 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
--47 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team E6
---------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: E4(P0) "Use early history"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCC
-CCCCCCC
-
---------------------------------------------------------------------------------
--111 pt/round: E6(P2) "Collude until betrayed"
--107 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: MeltingPot(P4) "America The Beautiful"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
--20 pt/round: E6(P2) "Collude until betrayed"
 -414 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
 Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
 
-BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
-cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
+BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBB
+cbccbccbccbccbccbccbccbccbccbccbccbccbcc
 
 --------------------------------------------------------------------------------
--135 pt/round: E6(P2) "Collude until betrayed"
+-136 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 -329 pt/round: Cycler_BBC(P7) "Cycler_BBC"
 CcbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
 CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
@@ -1256,197 +1130,341 @@ CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
 bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
 bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
 
-bbBbbBb
-bbcbbcb
+bbBbbBbbBbbBbbBbbBbbBbbBbbBbb
+bbcbbcbbcbbcbbcbbcbbcbbcbbcbb
 
 --------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-253 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-247 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: T4T_3(P9) "T4T_3"
+-13 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-19 pt/round: T4T_3(P9) "T4T_3"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: T4T_4(P10) "T4T_4"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCBbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+-13 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-19 pt/round: T4T_4(P10) "T4T_4"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCBbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: E6(P2) "Collude until betrayed"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
+-117 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-120 pt/round: T4T_5(P11) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
+CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+6 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-33 pt/round: DGupta(P12) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCBBBBBBB
+CCCCCCCCCCCCCCCCCCCCCccccccc
+
+--------------------------------------------------------------------------------
+-120 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-342 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+Bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbb
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbb
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-Section 3 - Game Data for Team maltodextrin
+Section 3 - Game Data for Team EWads
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
+-247 pt/round: EWads(P2) "Collude until betrayed"
+-253 pt/round: E4(P0) "Use early history"
+BbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-249 pt/round: EWads(P2) "Collude until betrayed"
+-252 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-248 pt/round: EWads(P2) "Collude until betrayed"
+-252 pt/round: ADangerGame(P3) "Error"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-249 pt/round: EWads(P2) "Collude until betrayed"
+-252 pt/round: MeltingPot(P4) "America The Beautiful"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-249 pt/round: EWads(P2) "Collude until betrayed"
+-252 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-19 pt/round: EWads(P2) "Collude until betrayed"
+-416 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+bBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
+bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
+
+BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
+cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
+
+BBb
+ccb
+
+--------------------------------------------------------------------------------
+-133 pt/round: EWads(P2) "Collude until betrayed"
+-334 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+BbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
+cbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
+
+bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
+bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
+
+bbBb
+bbcb
+
+--------------------------------------------------------------------------------
+-250 pt/round: EWads(P2) "Collude until betrayed"
+-250 pt/round: JSazon(P8) "The name the team gives to this strategy"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbb
+bbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-248 pt/round: EWads(P2) "Collude until betrayed"
+-252 pt/round: T4T_3(P9) "T4T_3"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbb
+bbbbb
+
+--------------------------------------------------------------------------------
+-249 pt/round: EWads(P2) "Collude until betrayed"
+-252 pt/round: T4T_4(P10) "T4T_4"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-247 pt/round: EWads(P2) "Collude until betrayed"
+-253 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+100 pt/round: EWads(P2) "Collude until betrayed"
+-500 pt/round: DGupta(P12) "The name the team gives to this strategy"
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-110 pt/round: EWads(P2) "Collude until betrayed"
+-351 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+bBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBb
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team ADangerGame
+--------------------------------------------------------------------------------
+0 pt/round: ADangerGame(P3) "Error"
 0 pt/round: E4(P0) "Use early history"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCC
+CCCCCC
 
 --------------------------------------------------------------------------------
--122 pt/round: maltodextrin(P3) "Error"
--119 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-124 pt/round: ADangerGame(P3) "Error"
+-121 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
-0 pt/round: E6(P2) "Collude until betrayed"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-252 pt/round: ADangerGame(P3) "Error"
+-248 pt/round: EWads(P2) "Collude until betrayed"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
+0 pt/round: ADangerGame(P3) "Error"
 0 pt/round: MeltingPot(P4) "America The Beautiful"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
+0 pt/round: ADangerGame(P3) "Error"
 0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--19 pt/round: maltodextrin(P3) "Error"
--415 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-22 pt/round: ADangerGame(P3) "Error"
+-412 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
 Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
 
-BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
-cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
-
-BBbBBbBBbBBbBB
-ccbccbccbccbcc
+BbBBbBBbBBbBBbBBbBBbBBb
+cbccbccbccbccbccbccbccb
 
 --------------------------------------------------------------------------------
--135 pt/round: maltodextrin(P3) "Error"
--330 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-136 pt/round: ADangerGame(P3) "Error"
+-327 pt/round: Cycler_BBC(P7) "Cycler_BBC"
 CcbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
 CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
 
-bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
-bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
+bBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
+bcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-252 pt/round: ADangerGame(P3) "Error"
+-248 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
+0 pt/round: ADangerGame(P3) "Error"
 0 pt/round: T4T_3(P9) "T4T_3"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
+0 pt/round: ADangerGame(P3) "Error"
 0 pt/round: T4T_4(P10) "T4T_4"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
+0 pt/round: ADangerGame(P3) "Error"
 0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
+0 pt/round: ADangerGame(P3) "Error"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: maltodextrin(P3) "Error"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-116 pt/round: ADangerGame(P3) "Error"
+-346 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+Bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbb
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbb
+
+bBbbbBbbBbBbBbbbbbBbbBbbBBBBBBB
+bcbbbcbbcbcbcbbbbbcbbcbbccccccc
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1457,35 +1475,38 @@ Section 3 - Game Data for Team MeltingPot
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--12 pt/round: MeltingPot(P4) "America The Beautiful"
--7 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-33 pt/round: MeltingPot(P4) "America The Beautiful"
+-28 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCcbbb
-CCCCCCCCCCCCCCCCCCCCCBbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-252 pt/round: MeltingPot(P4) "America The Beautiful"
+-249 pt/round: EWads(P2) "Collude until betrayed"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: MeltingPot(P4) "America The Beautiful"
-0 pt/round: E6(P2) "Collude until betrayed"
+0 pt/round: ADangerGame(P3) "Error"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: MeltingPot(P4) "America The Beautiful"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: MeltingPot(P4) "America The Beautiful"
@@ -1496,8 +1517,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
+CCCCCCCCCC
+CCCCCCCCCC
 
 --------------------------------------------------------------------------------
 -19 pt/round: MeltingPot(P4) "America The Beautiful"
@@ -1505,8 +1526,11 @@ CCCCCCCCCCCCCCCCC
 cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
 Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
 
-BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBB
-cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbcc
+BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
+cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
+
+BBbBBbBBbBBbB
+ccbccbccbccbc
 
 --------------------------------------------------------------------------------
 -135 pt/round: MeltingPot(P4) "America The Beautiful"
@@ -1518,16 +1542,16 @@ bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
 bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
 
 --------------------------------------------------------------------------------
-0 pt/round: MeltingPot(P4) "America The Beautiful"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-252 pt/round: MeltingPot(P4) "America The Beautiful"
+-249 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: MeltingPot(P4) "America The Beautiful"
@@ -1538,8 +1562,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCC
+CCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: MeltingPot(P4) "America The Beautiful"
@@ -1547,8 +1571,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: MeltingPot(P4) "America The Beautiful"
@@ -1559,29 +1583,26 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: MeltingPot(P4) "America The Beautiful"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: MeltingPot(P4) "America The Beautiful"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-117 pt/round: MeltingPot(P4) "America The Beautiful"
+-345 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+Bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbbbbbBbBbbBBbBBbB
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbc
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -1592,38 +1613,38 @@ Section 3 - Game Data for Team Bscts&Grvy
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--33 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
--28 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-40 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-35 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-252 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-249 pt/round: EWads(P2) "Collude until betrayed"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-0 pt/round: E6(P2) "Collude until betrayed"
+0 pt/round: ADangerGame(P3) "Error"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
@@ -1634,38 +1655,44 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
+CCCCCCCCCC
+CCCCCCCCCC
 
 --------------------------------------------------------------------------------
--134 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-136 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-133 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 
-CcBCcBCcBCcBCcBCcBCcBC
-CBcCBcCBcCBcCBcCBcCBcC
+CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+
+BCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+cCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
 
 --------------------------------------------------------------------------------
--216 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
--216 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-218 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-214 pt/round: Cycler_BBC(P7) "Cycler_BBC"
 CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
+bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
+bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
+
+cbBc
+BbcB
 
 --------------------------------------------------------------------------------
-0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-252 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-249 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
@@ -1682,11 +1709,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCC
-CCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
@@ -1694,80 +1718,77 @@ CCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCC
-CCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-195 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-192 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbb
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbb
 
-CCCCCCCCCCC
-CCCCCCCCCCC
+bBcbbBcbBcBcBcb
+bcBbbcBbcBcBcBb
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team Optimistic Oscar
 --------------------------------------------------------------------------------
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--134 pt/round: E4(P0) "Use early history"
+-132 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-136 pt/round: E4(P0) "Use early history"
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 
 CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
 CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
 
-cC
-BC
-
 --------------------------------------------------------------------------------
--415 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-414 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 -19 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
 cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
 
-cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
-BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
-
-ccbccbccbccbccbccbccbccbc
-BBbBBbBBbBBbBBbBBbBBbBBbB
+cbccbccbccbccbccbccbccbccbccbccbccbccbcc
+BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBB
 
 --------------------------------------------------------------------------------
--414 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--20 pt/round: E6(P2) "Collude until betrayed"
-Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
-cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
-
-cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
-BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
-
---------------------------------------------------------------------------------
--415 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--19 pt/round: maltodextrin(P3) "Error"
-Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
-cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
+-416 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-19 pt/round: EWads(P2) "Collude until betrayed"
+bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
+bBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
 
 cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
 BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
 
-ccbccbccbccbcc
-BBbBBbBBbBBbBB
+ccb
+BBb
+
+--------------------------------------------------------------------------------
+-412 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-22 pt/round: ADangerGame(P3) "Error"
+Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
+cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
+
+cbccbccbccbccbccbccbccb
+BbBBbBBbBBbBBbBBbBBbBBb
 
 --------------------------------------------------------------------------------
 -415 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
@@ -1775,56 +1796,68 @@ BBbBBbBBbBBbBB
 Bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
 cBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
 
-cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbcc
-BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBB
+cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
+BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
+
+ccbccbccbccbc
+BBbBBbBBbBBbB
 
 --------------------------------------------------------------------------------
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--134 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
-cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-
-CBcCBcCBcCBcCBcCBcCBcC
-CcBCcBCcBCcBCcBCcBCcBC
-
---------------------------------------------------------------------------------
--297 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--104 pt/round: Cycler_BBC(P7) "Cycler_BBC"
-BccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBc
-cBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcB
-
-cBccBccBccBccBccBccBccBccBccBccB
-BcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBc
-
---------------------------------------------------------------------------------
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--134 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
-cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-
-CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcC
-CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBC
-
---------------------------------------------------------------------------------
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--134 pt/round: T4T_3(P9) "T4T_3"
+-133 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-136 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 
 CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
 CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
 
-cCBcC
-BCcBC
+cCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+BCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
 
 --------------------------------------------------------------------------------
--135 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--135 pt/round: T4T_4(P10) "T4T_4"
+-300 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-100 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+BccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBc
+cBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcB
+
+cBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccB
+BcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBc
+
+ccBcc
+BBcBB
+
+--------------------------------------------------------------------------------
+-417 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-18 pt/round: JSazon(P8) "The name the team gives to this strategy"
+bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
+bBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
+
+cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
+BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
+
+ccbccbccbccbccbccbccbc
+BBbBBbBBbBBbBBbBBbBBbB
+
+--------------------------------------------------------------------------------
+-131 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-137 pt/round: T4T_3(P9) "T4T_3"
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 
-CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
-CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
+CBcCBcCBcCBcCBcCBcCB
+CcBCcBCcBCcBCcBCcBCc
+
+--------------------------------------------------------------------------------
+-133 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-136 pt/round: T4T_4(P10) "T4T_4"
+BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
+cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
+
+CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+
+cCBcCBcCBcCBcCBcCBcCBcCBcCB
+BCcBCcBCcBCcBCcBCcBCcBCcBCc
 
 --------------------------------------------------------------------------------
 -135 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
@@ -1832,71 +1865,74 @@ CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 
-CBcCBcCBcCBcCBcCBcCBc
-CcBCcBCcBCcBCcBCcBCcB
-
---------------------------------------------------------------------------------
--132 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--137 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
-cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-
-CBcCBcCBcCBcCBcCBcCBcCB
-CcBCcBCcBCcBCcBCcBCcBCc
-
---------------------------------------------------------------------------------
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
--134 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
-cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-
 CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
 CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
 
-cCBcCBcCBcCBcCBcCBcC
-BCcBCcBCcBCcBCcBCcBC
+cCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
+BCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
+
+--------------------------------------------------------------------------------
+33 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-170 pt/round: DGupta(P12) "The name the team gives to this strategy"
+BCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBC
+cCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcC
+
+CBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCB
+CcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCc
+
+--------------------------------------------------------------------------------
+-248 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-69 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+bCcbccbccbccbcCbCcbCCbCCbCcBCcbccbccbCcbcCbcCbCcBccbccBccBccBCCBCCBcCBCcbcCbCcbc
+bCBbBBbBBbBBbBCbCBbCCbCCbCBcCBbBBbBBbCBbBCbBCbCBcBBbBBcBBcBBcCCcCCcBCcCBbBCbCBbB
+
+cbcCbCCbcCBcCbcCbcCbccBc
+BbBCbCCbBCcBCbBCbBCbBBcB
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team Cycler_BBC
 --------------------------------------------------------------------------------
--209 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--218 pt/round: E4(P0) "Use early history"
+-207 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-219 pt/round: E4(P0) "Use early history"
 CBbCBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 CcbCcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
+bcBbcBbcBbcBbcBbcBbcB
+bBcbBcbBcbBcbBcbBcbBc
 
 --------------------------------------------------------------------------------
 -329 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--135 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
-CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
-CcbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
-
-bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
-bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
-
---------------------------------------------------------------------------------
--329 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--135 pt/round: E6(P2) "Collude until betrayed"
+-136 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
 CcbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
 
 bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
 bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
 
-bbcbbcb
-bbBbbBb
+bbcbbcbbcbbcbbcbbcbbcbbcbbcbb
+bbBbbBbbBbbBbbBbbBbbBbbBbbBbb
 
 --------------------------------------------------------------------------------
--330 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--135 pt/round: maltodextrin(P3) "Error"
-CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
-CcbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
+-334 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-133 pt/round: EWads(P2) "Collude until betrayed"
+cbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
+BbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
 
 bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
 bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
+
+bbcb
+bbBb
+
+--------------------------------------------------------------------------------
+-327 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-136 pt/round: ADangerGame(P3) "Error"
+CBbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
+CcbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
+
+bcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
+bBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
 
 --------------------------------------------------------------------------------
 -329 pt/round: Cycler_BBC(P7) "Cycler_BBC"
@@ -1908,31 +1944,40 @@ bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
 bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
 
 --------------------------------------------------------------------------------
--216 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--216 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+-214 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-218 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
 CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
+bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
+bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
+
+BbcB
+cbBc
 
 --------------------------------------------------------------------------------
--104 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--297 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-100 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-300 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 cBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcB
 BccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBc
 
-BcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBc
-cBccBccBccBccBccBccBccBccBccBccB
+BcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBcBBc
+cBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccBccB
+
+BBcBB
+ccBcc
 
 --------------------------------------------------------------------------------
--215 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--215 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
+-334 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-134 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
+BbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
 
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
+bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
+bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
+
+bbcbbcbbcbbcbbcbbcbb
+bbBbbBbbBbbBbbBbbBbb
 
 --------------------------------------------------------------------------------
 -214 pt/round: Cycler_BBC(P7) "Cycler_BBC"
@@ -1943,191 +1988,191 @@ CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
 bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
 
-BbcBbcBbcBbcBbcBbcBbcBbcBbcB
-cbBcbBcbBcbBcbBcbBcbBcbBcbBc
+BbcBbcBbcBbcBbcB
+cbBcbBcbBcbBcbBc
 
 --------------------------------------------------------------------------------
--214 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--218 pt/round: T4T_4(P10) "T4T_4"
+-216 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-216 pt/round: T4T_4(P10) "T4T_4"
 CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 
 bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
 bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
 
-BbcBbcBbcBbcB
-cbBcbBcbBcbBc
+BbcBbcBbcBbcBbcBbc
+cbBcbBcbBcbBcbBcbB
 
 --------------------------------------------------------------------------------
--213 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--218 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+-216 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-216 pt/round: T4T_5(P11) "The name the team gives to this strategy"
 CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
+bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
+bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
 
 --------------------------------------------------------------------------------
--213 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--218 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
+66 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-334 pt/round: DGupta(P12) "The name the team gives to this strategy"
+CBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCB
+CccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCc
 
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
+BCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBC
+cCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccC
 
---------------------------------------------------------------------------------
--214 pt/round: Cycler_BBC(P7) "Cycler_BBC"
--218 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
-
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
-
-BbcBbcBbcBbcBbcBb
-cbBcbBcbBcbBcbBcb
+BB
+cc
 
 --------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team T4T_2
---------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: E4(P0) "Use early history"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-175 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-215 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBbcbbcbbcbbcbBcBbcBBcBBcBbCBbcbbcbbcBbcbBcbBcBbCbbcbbCbbCbbCBBCBBCbBCBbcbBcBbcb
+BcbBbbBbbBbbBbcBcbBccBccBcbCcbBbbBbbBcbBbcBbcBcbCbbBbbCbbCbbCccCccCbcCcbBbcBcbBb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
+bcbBcBBcbBCbBcbBcbBcbbCbbCBbCBbCBBCBbCBbc
+bBbcBccBbcCbcBbcBbcBbbCbbCcbCcbCccCcbCcbB
 
 --------------------------------------------------------------------------------
--58 pt/round: T4T_2(P8) "The name the team gives to this strategy"
--54 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team JSazon
+--------------------------------------------------------------------------------
+-246 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-254 pt/round: E4(P0) "Use early history"
+BbBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: E6(P2) "Collude until betrayed"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-247 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-253 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-250 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-250 pt/round: EWads(P2) "Collude until betrayed"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
---------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: MeltingPot(P4) "America The Beautiful"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbb
+bbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-248 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-252 pt/round: ADangerGame(P3) "Error"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
--134 pt/round: T4T_2(P8) "The name the team gives to this strategy"
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
-cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
+-249 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-252 pt/round: MeltingPot(P4) "America The Beautiful"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBC
-CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
---------------------------------------------------------------------------------
--215 pt/round: T4T_2(P8) "The name the team gives to this strategy"
--215 pt/round: Cycler_BBC(P7) "Cycler_BBC"
-CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
-CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: T4T_3(P9) "T4T_3"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-249 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-252 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: T4T_4(P10) "T4T_4"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-18 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-417 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+bBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbB
+bccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbc
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBbBBb
+cbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccbccb
 
-CCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BBbBBbBBbBBbBBbBBbBBbB
+ccbccbccbccbccbccbccbc
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-134 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-334 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+BbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBb
+cbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbBbbB
+bcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbcbbc
+
+bbBbbBbbBbbBbbBbbBbb
+bbcbbcbbcbbcbbcbbcbb
+
+--------------------------------------------------------------------------------
+-248 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-252 pt/round: T4T_3(P9) "T4T_3"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-248 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-252 pt/round: T4T_4(P10) "T4T_4"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-247 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-253 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+100 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-500 pt/round: DGupta(P12) "The name the team gives to this strategy"
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+-120 pt/round: JSazon(P8) "The name the team gives to this strategy"
+-344 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+bBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbb
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbb
+
+bBb
+bcb
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2138,38 +2183,41 @@ Section 3 - Game Data for Team T4T_3
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--112 pt/round: T4T_3(P9) "T4T_3"
--108 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-19 pt/round: T4T_3(P9) "T4T_3"
+-13 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbb
+CCCCCCCCCCCCCCCCCCCCCBbbbbbb
 
-bbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbb
+--------------------------------------------------------------------------------
+-252 pt/round: T4T_3(P9) "T4T_3"
+-248 pt/round: EWads(P2) "Collude until betrayed"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbb
+bbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_3(P9) "T4T_3"
-0 pt/round: E6(P2) "Collude until betrayed"
+0 pt/round: ADangerGame(P3) "Error"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_3(P9) "T4T_3"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_3(P9) "T4T_3"
@@ -2180,8 +2228,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCC
+CCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_3(P9) "T4T_3"
@@ -2193,16 +2241,13 @@ CCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--134 pt/round: T4T_3(P9) "T4T_3"
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-137 pt/round: T4T_3(P9) "T4T_3"
+-131 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 
-CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
-CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
-
-BCcBC
-cCBcC
+CcBCcBCcBCcBCcBCcBCc
+CBcCBcCBcCBcCBcCBcCB
 
 --------------------------------------------------------------------------------
 -218 pt/round: T4T_3(P9) "T4T_3"
@@ -2213,20 +2258,17 @@ CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
 bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
 
-cbBcbBcbBcbBcbBcbBcbBcbBcbBc
-BbcBbcBbcBbcBbcBbcBbcBbcBbcB
+cbBcbBcbBcbBcbBc
+BbcBbcBbcBbcBbcB
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_3(P9) "T4T_3"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-252 pt/round: T4T_3(P9) "T4T_3"
+-248 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_3(P9) "T4T_3"
@@ -2234,11 +2276,8 @@ CCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCC
-CCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_3(P9) "T4T_3"
@@ -2246,29 +2285,32 @@ CCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_3(P9) "T4T_3"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_3(P9) "T4T_3"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-190 pt/round: T4T_3(P9) "T4T_3"
+-190 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCC
-CCCCCCCC
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcB
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBc
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2279,41 +2321,38 @@ Section 3 - Game Data for Team T4T_4
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--83 pt/round: T4T_4(P10) "T4T_4"
--79 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-19 pt/round: T4T_4(P10) "T4T_4"
+-13 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+CCCCCCCCCCCCCCCCCCCCCcbbbbbb
+CCCCCCCCCCCCCCCCCCCCCBbbbbbb
+
+--------------------------------------------------------------------------------
+-252 pt/round: T4T_4(P10) "T4T_4"
+-249 pt/round: EWads(P2) "Collude until betrayed"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_4(P10) "T4T_4"
-0 pt/round: E6(P2) "Collude until betrayed"
+0 pt/round: ADangerGame(P3) "Error"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_4(P10) "T4T_4"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_4(P10) "T4T_4"
@@ -2321,8 +2360,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_4(P10) "T4T_4"
@@ -2330,41 +2369,41 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCC
-CCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
--135 pt/round: T4T_4(P10) "T4T_4"
--135 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+-136 pt/round: T4T_4(P10) "T4T_4"
+-133 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 
-CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
+CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
+CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
+
+BCcBCcBCcBCcBCcBCcBCcBCcBCc
+cCBcCBcCBcCBcCBcCBcCBcCBcCB
 
 --------------------------------------------------------------------------------
--218 pt/round: T4T_4(P10) "T4T_4"
--214 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-216 pt/round: T4T_4(P10) "T4T_4"
+-216 pt/round: Cycler_BBC(P7) "Cycler_BBC"
 CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 
 bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
 bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
 
-cbBcbBcbBcbBc
-BbcBbcBbcBbcB
+cbBcbBcbBcbBcbBcbB
+BbcBbcBbcBbcBbcBbc
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_4(P10) "T4T_4"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-252 pt/round: T4T_4(P10) "T4T_4"
+-248 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_4(P10) "T4T_4"
@@ -2372,11 +2411,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCC
-CCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_4(P10) "T4T_4"
@@ -2384,29 +2420,32 @@ CCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_4(P10) "T4T_4"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_4(P10) "T4T_4"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-193 pt/round: T4T_4(P10) "T4T_4"
+-193 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbb
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bBcbbBcbBcB
+bcBbbcBbcBc
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -2417,38 +2456,41 @@ Section 3 - Game Data for Team T4T_5
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCC
+CCCCCCC
 
 --------------------------------------------------------------------------------
--101 pt/round: T4T_5(P11) "The name the team gives to this strategy"
--97 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+-120 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+-117 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-bbbbbbb
-bbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-253 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+-247 pt/round: EWads(P2) "Collude until betrayed"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-0 pt/round: E6(P2) "Collude until betrayed"
+0 pt/round: ADangerGame(P3) "Error"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
@@ -2459,8 +2501,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
@@ -2468,8 +2510,11 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 -135 pt/round: T4T_5(P11) "The name the team gives to this strategy"
@@ -2477,299 +2522,32 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
 BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 
-CcBCcBCcBCcBCcBCcBCcB
-CBcCBcCBcCBcCBcCBcCBc
-
---------------------------------------------------------------------------------
--218 pt/round: T4T_5(P11) "The name the team gives to this strategy"
--213 pt/round: Cycler_BBC(P7) "Cycler_BBC"
-CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
-CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-0 pt/round: T4T_3(P9) "T4T_3"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-0 pt/round: T4T_4(P10) "T4T_4"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team T4T_6
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: E4(P0) "Use early history"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
--85 pt/round: T4T_6(P12) "The name the team gives to this strategy"
--81 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: E6(P2) "Collude until betrayed"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: MeltingPot(P4) "America The Beautiful"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCC
-CCCC
-
---------------------------------------------------------------------------------
--137 pt/round: T4T_6(P12) "The name the team gives to this strategy"
--132 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
-cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
-
-CcBCcBCcBCcBCcBCcBCcBCc
-CBcCBcCBcCBcCBcCBcCBcCB
-
---------------------------------------------------------------------------------
--218 pt/round: T4T_6(P12) "The name the team gives to this strategy"
--213 pt/round: Cycler_BBC(P7) "Cycler_BBC"
-CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
-CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: T4T_3(P9) "T4T_3"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: T4T_4(P10) "T4T_4"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team T4T_7
---------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-0 pt/round: E4(P0) "Use early history"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
--47 pt/round: T4T_7(P13) "The name the team gives to this strategy"
--42 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCcbbbbbbbbbbbbbbbbbbbbb
-CCCCCCCCCCCCCCCCCCCCCBbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-0 pt/round: E6(P2) "Collude until betrayed"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-0 pt/round: maltodextrin(P3) "Error"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-0 pt/round: MeltingPot(P4) "America The Beautiful"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCC
-CCCCCCCCCCC
-
---------------------------------------------------------------------------------
--134 pt/round: T4T_7(P13) "The name the team gives to this strategy"
--134 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
-cBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
-BcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
-
 CcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCc
 CBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCB
 
-BCcBCcBCcBCcBCcBCcBC
-cCBcCBcCBcCBcCBcCBcC
+BCcBCcBCcBCcBCcBCcBCcBCcBCcBCcBCcB
+cCBcCBcCBcCBcCBcCBcCBcCBcCBcCBcCBc
 
 --------------------------------------------------------------------------------
--218 pt/round: T4T_7(P13) "The name the team gives to this strategy"
--214 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+-216 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+-216 pt/round: Cycler_BBC(P7) "Cycler_BBC"
 CcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBc
 CBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcB
 
-bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
-bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
-
-cbBcbBcbBcbBcbBcb
-BbcBbcBbcBbcBbcBb
+bBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbBcbB
+bcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbcBbc
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-0 pt/round: T4T_2(P8) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-253 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+-247 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+bbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
+0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
 0 pt/round: T4T_3(P9) "T4T_3"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
@@ -2777,11 +2555,149 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCC
-CCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
+0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+0 pt/round: T4T_4(P10) "T4T_4"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-195 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+-191 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
+
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbb
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbb
+
+bBcbbBcb
+bcBbbcBb
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team DGupta
+--------------------------------------------------------------------------------
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
+0 pt/round: E4(P0) "Use early history"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-33 pt/round: DGupta(P12) "The name the team gives to this strategy"
+6 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCccccccc
+CCCCCCCCCCCCCCCCCCCCCBBBBBBB
+
+--------------------------------------------------------------------------------
+-500 pt/round: DGupta(P12) "The name the team gives to this strategy"
+100 pt/round: EWads(P2) "Collude until betrayed"
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
+0 pt/round: ADangerGame(P3) "Error"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
+0 pt/round: MeltingPot(P4) "America The Beautiful"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
+0 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+-170 pt/round: DGupta(P12) "The name the team gives to this strategy"
+33 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+cCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcC
+BCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBC
+
+CcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCcCCc
+CBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCB
+
+--------------------------------------------------------------------------------
+-334 pt/round: DGupta(P12) "The name the team gives to this strategy"
+66 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+CccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCc
+CBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCB
+
+cCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccCccC
+BCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBCBBC
+
+cc
+BB
+
+--------------------------------------------------------------------------------
+-500 pt/round: DGupta(P12) "The name the team gives to this strategy"
+100 pt/round: JSazon(P8) "The name the team gives to this strategy"
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
+0 pt/round: T4T_3(P9) "T4T_3"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 0 pt/round: T4T_4(P10) "T4T_4"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
@@ -2789,28 +2705,163 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
+0 pt/round: DGupta(P12) "The name the team gives to this strategy"
 0 pt/round: T4T_5(P11) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-0 pt/round: T4T_7(P13) "The name the team gives to this strategy"
-0 pt/round: T4T_6(P12) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-320 pt/round: DGupta(P12) "The name the team gives to this strategy"
+63 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+cCccccccccccccCcCccCCcCCcCcCCccccccccCcccCccCcCcCcccccCccCccCCCCCCCcCCCcccCcCccc
+BCBBBBBBBBBBBBCBCBBCCBCCBCBCCBBBBBBBBCBBBCBBCBCBCBBBBBCBBCBBCCCCCCCBCCCBBBCBCBBB
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+cccCcCCccCCcCccCccCcccCcc
+BBBCBCCBBCCBCBBCBBCBBBCBB
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team MDePaula
+--------------------------------------------------------------------------------
+-188 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-196 pt/round: E4(P0) "Use early history"
+BcBbBbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
+cBcbcbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBb
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcb
+
+--------------------------------------------------------------------------------
+-342 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-120 pt/round: E5(P1) "Collude first 100 rounds unless betrayed. Betray 101st round forward."
+Bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+cBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbb
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-351 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-110 pt/round: EWads(P2) "Collude until betrayed"
+bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+bBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcb
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBb
+
+--------------------------------------------------------------------------------
+-346 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-116 pt/round: ADangerGame(P3) "Error"
+Bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+cBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbb
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbb
+
+bcbbbcbbcbcbcbbbbbcbbcbbccccccc
+bBbbbBbbBbBbBbbbbbBbbBbbBBBBBBB
+
+--------------------------------------------------------------------------------
+-345 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-117 pt/round: MeltingPot(P4) "America The Beautiful"
+Bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+cBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbc
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbbbbbBbBbbBBbBBbB
+
+--------------------------------------------------------------------------------
+-192 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-195 pt/round: Bscts&Grvy(P5) "Timmy the Trustworthy"
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbb
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbb
+
+bcBbbcBbcBcBcBb
+bBcbbBcbBcBcBcb
+
+--------------------------------------------------------------------------------
+-69 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-248 pt/round: Optimistic Oscar(P6) "Cycler_CCB"
+bCBbBBbBBbBBbBCbCBbCCbCCbCBcCBbBBbBBbCBbBCbBCbCBcBBbBBcBBcBBcCCcCCcBCcCBbBCbCBbB
+bCcbccbccbccbcCbCcbCCbCCbCcBCcbccbccbCcbcCbcCbCcBccbccBccBccBCCBCCBcCBCcbcCbCcbc
+
+BbBCbCCbBCcBCbBCbBCbBBcB
+cbcCbCCbcCBcCbcCbcCbccBc
+
+--------------------------------------------------------------------------------
+-215 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-175 pt/round: Cycler_BBC(P7) "Cycler_BBC"
+BcbBbbBbbBbbBbcBcbBccBccBcbCcbBbbBbbBcbBbcBbcBcbCbbBbbCbbCbbCccCccCbcCcbBbcBcbBb
+cBbcbbcbbcbbcbBcBbcBBcBBcBbCBbcbbcbbcBbcbBcbBcBbCbbcbbCbbCbbCBBCBBCbBCBbcbBcBbcb
+
+bBbcBccBbcCbcBbcBbcBbbCbbCcbCcbCccCcbCcbB
+bcbBcBBcbBCbBcbBcbBcbbCbbCBbCBbCBBCBbCBbc
+
+--------------------------------------------------------------------------------
+-344 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-120 pt/round: JSazon(P8) "The name the team gives to this strategy"
+bcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbb
+bBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbbbBbbbBbbBbBbBbbbbbBbbBbbBBBBBBBbBBBbbbBbBbbb
+
+bbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbb
+bbbBbBBbbBBbBbbBbbBbbbBbbBBbBBbBBBBBbBBbbbbBbBbbbbbbbbbbbbBbBbbBBbBBbBbBBbbbbbbb
+
+bcb
+bBb
+
+--------------------------------------------------------------------------------
+-190 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-190 pt/round: T4T_3(P9) "T4T_3"
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBc
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcB
+
+--------------------------------------------------------------------------------
+-193 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-193 pt/round: T4T_4(P10) "T4T_4"
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbb
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbb
+
+bcBbbcBbcBc
+bBcbbBcbBcB
+
+--------------------------------------------------------------------------------
+-191 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-195 pt/round: T4T_5(P11) "The name the team gives to this strategy"
+BcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbbbcBbbcBbcBcBcBbbbbcBbcBbcCCCCCCBcCCBbbcBcBbb
+cBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbbbBcbbBcbBcBcBcbbbbBcbBcbBCCCCCCcBCCcbbBcBcbb
+
+bbbcBcCBbcCBcBbcBbcBbbcBbcCBcCBcCCCCBcCBbbbcBcBbbbbbbbbbbbcBcBbcCBcCBcBcCBbbbbbb
+bbbBcBCcbBCcBcbBcbBcbbBcbBCcBCcBCCCCcBCcbbbBcBcbbbbbbbbbbbBcBcbBCcBCcBcBCcbbbbbb
+
+bcBbbcBb
+bBcbbBcb
+
+--------------------------------------------------------------------------------
+63 pt/round: MDePaula(P13) "The name the team gives to this strategy"
+-320 pt/round: DGupta(P12) "The name the team gives to this strategy"
+BCBBBBBBBBBBBBCBCBBCCBCCBCBCCBBBBBBBBCBBBCBBCBCBCBBBBBCBBCBBCCCCCCCBCCCBBBCBCBBB
+cCccccccccccccCcCccCCcCCcCcCCccccccccCcccCccCcCcCcccccCccCccCCCCCCCcCCCcccCcCccc
+
+BBBCBCCBBCCBCBBCBBCBBBCBB
+cccCcCCccCCcCccCccCcccCcc
 
 --------------------------------------------------------------------------------

@@ -6,7 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'T4T_2' # Only 10 chars displayed.
+team_name = 'JSazon' # Only 10 chars displayed.
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -26,14 +26,34 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
 
-    if len(their_history) == 0:
-        return 'c'
-    #First Round: no response is given, so their_history == 0 characters. Program colludes as initial response. --Brandon Rios
-    elif their_history[-1] == 'b':
+    def must_common(common=''):
+        '''collude or betray appear most often in oppenents last 5 movies'''
+
+        y = 0
+        x = 0
+        # go through each letter in the last 5 decisions of opponent
+        for letters in their_history[-5:]:
+            # the x or y with the highest value is equivalent of the most often letter
+            if (letters == 'b' or 'B'):
+                # for every b add one to y
+                y = + 1
+            else:
+                x = + 1
+        # assign the value of common to the most appeared letter
+        if (y > x):
+            common = 'b'
+        else:
+            common = 'c'
+
+    if len(my_history) < 6:  # It's the first six round; collude.
         return 'b'
-    ##Subsequent Rounds: If opponent answered with 'betray' the previous round, respond with betray. --Brandon Rios
     else:
-        return 'c'
+        # returns opposite letter of the most common letter in last 5 decisions
+        if must_common(common='b'):
+            return 'c'
+        else:
+
+            return 'b'
 
     
 def test_move(my_history, their_history, my_score, their_score, result):

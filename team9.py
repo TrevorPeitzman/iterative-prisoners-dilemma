@@ -6,7 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'T4T_7' # Only 10 chars displayed.
+team_name = 'MDePaula' # Only 10 chars displayed.
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -18,14 +18,8 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b'. 
     '''
 
-    if len(their_history) == 0:
-        return 'c'
-    #First Round: no response is given, so their_history == 0 characters. Program colludes as initial response. --Brandon Rios
-    elif their_history[-1] == 'b':
-        return 'b'
-    ##Subsequent Rounds: If opponent answered with 'betray' the previous round, respond with betray. --Brandon Rios
-    else:
-        return 'c'
+    answer = "cbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbbbbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcbcbbbbbbbbbbbbcbcbbccbccbcbccbbbbbbbbcbbbcbbcbcbcbbbbbcbbcbbcccccccbcccbbbcbcbbbbbbcbccbbccbcbbcbbcbbbcbbccbccbcccccbccbbbbcb"
+    return answer[len(my_history) - 1]
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
